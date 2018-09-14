@@ -1,0 +1,35 @@
+﻿main{
+	margin:0 auto;  /* permet de centrer à 60% de la page*/
+	width: 60%;
+}
+h1,h2{
+border:1px solid black;
+	text-align:center;
+}
+nav{
+	border:1px solid black;
+	float:left;
+	padding-right:10px
+
+}
+
+#section1{
+	border:1px solid red;
+	float:left;
+	max-width:450px;
+
+}
+
+#section2{
+
+	border:1px solid blue;
+	width:450px;
+	float:left;
+
+}
+footer{
+	border:1px solid green;
+	clear:both;
+}
+
+

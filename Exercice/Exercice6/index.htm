@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>FORMULAIRE</title>
+	<meta  charset="UTF-8">
+	<meta name="title" content="Titre de la page">
+	<meta name="description" content="description de la page">
+	<meta name="author" content="prenon NOM">
+	<meta name="keywords" content="mots-clé1, mots-clé2, ...">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet " href ="CSS/Style.css"/>
+</head>
+<body>
+	<div class="form-style">
+	<div class="Entete">Entrez les informations du membre</div>
+		<form action="" method="get">
+			<div>
+				<label>Nom:</label><input type="text" name="nom"/>
+			</div>
+			<div>
+				<label>Prénom:</label><input type="text" name="prenom"/>
+			</div>
+			<div>
+				<label>Adresse:</label><input type="text" name="adresse"/>
+			</div>
+			<div>
+				<label>Ville:</label><input type="text" name="ville"/>
+			</div>
+			<div>
+				<label>Telephone:</label><input type="text" placeholder="999-999-9999" title="XXX-XXX-XXXX" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" size="12"/>
+			</div>
+			<div>
+				<label>Date d'inscription:</label><input type="date" name="naissance"/>
+			</div>
+			<div>
+				<label>Date de fin:</label><input type="date" name="naissance"/>
+			<div>
+			</div>
+				<label>Sexe:</label><input type="radio" name="sexe" checked/><label>Masculin</label>
+									<input type="radio" name="sexe" checked/><label>Feminin</label>
+			</div>
+			<div>
+				<label>Choix:</label>
+				<select name="maListe">
+					<option value="produit1">American Express</option>
+					<option value="produit2">Visa</option>
+					<option value="produit3">MasterCard</option>
+				</select>
+			</div>
+			<div>
+				<label>Carte de credit:</label><input type="text" name="carte de credit" placeholder="9999 9999 9999 9999" maxlength="19" size="19"/>
+			</div>
+			<div>
+				<label>Mot de passe:</label><input type="password" name="txtMotPasse"/>
+			</div>
+			<div>
+				<label>Courriel:</label><input type="text" name="courriel"/>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

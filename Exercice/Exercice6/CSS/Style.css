@@ -1,13 +1,33 @@
-.form-style{
+.form-style
+{
     max-width: 500px;
     padding: 20px 12px 10px 20px;
     font: 13px Arial, Helvetica, sans-serif;
 }
-.Entete{
+.Entete
+{
     font-weight: bold;
     font-style: italic;
     border-bottom: 2px solid #ddd;
     margin-bottom: 10px;
     font-size: 15px;
     padding-bottom: 3px;
+}
+label
+{
+    display:inline-block;
+
+    margin-bottom: 25px;
+    width:45%;
+
+}
+#baka
+{
+    display:inline;
+    witdh:15%;
+    margin-right:20px;
+}
+#baka1
+{
+ display:inline;
 }
